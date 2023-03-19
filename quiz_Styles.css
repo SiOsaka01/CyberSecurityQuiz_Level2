@@ -1,10 +1,10 @@
-
 body {
+    display: flex;
     background-color: lightblue;
     font-family: Helvetica;
-}
-
-#main {
+    }
+    
+    #main {
     width: 80%;
     max-width: 950px;
     border: 1px gray solid;
@@ -12,29 +12,35 @@ body {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
-}
-
-#header {
+    }
+    
+    #header {
     margin-top: 0;
     border: 2px solid black;
     padding: 5px;
     height: 250px;
     background: beige;
-    background-image: url("code.jpg");
+    background-image: url("above.png");
     color: white;
+    background-repeat: no-repeat;
+    background-size:cover;
     }
-
+    
     label {
-        display: block;
-        }
-        
-        input {
-        width: 30px;
-        margin-left: 20px;
-        }
-        
-        button {
-        width: 100px;
-        margin-top: 20px;
-        }
-
+    display: block;
+    }
+    
+    input {
+    width: 30px;
+    margin-left: 20px;
+    }
+    
+    h2 {
+    clear: both;
+    padding-top: 20px;
+    }
+    
+    button {
+    width: 100px;
+    margin-top: 20px;
+    }
