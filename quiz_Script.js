@@ -4,7 +4,13 @@ document.getElementById("form1").onsubmit=function() {
 	   sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
 	   con = parseInt(document.querySelector('input[name = "con"]:checked').value);
 	   ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
-
+     ifstate = parseInt(document.querySelector('input[name = "q5"]:checked').value);
+     ifstate = parseInt(document.querySelector('input[name = "q6"]:checked').value);
+     ifstate = parseInt(document.querySelector('input[name = "q7"]:checked').value);
+     ifstate = parseInt(document.querySelector('input[name = "q8"]:checked').value);
+     ifstate = parseInt(document.querySelector('input[name = "q9"]:checked').value);
+     ifstate = parseInt(document.querySelector('input[name = "q10"]:checked').value);
+     
 
 	   result = variable + sub + con + ifstate;
 
