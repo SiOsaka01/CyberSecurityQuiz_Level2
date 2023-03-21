@@ -1,57 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>JavaScript Quiz</title>
-<style>
-body {
-background-color: lightblue;
-font-family: Helvetica;
-}
-
-#main {
-width: 80%;
-max-width: 950px;
-border: 1px gray solid;
-margin: auto;
-padding: 10px;
-background-color: white;
-border-radius: 10px;
-}
-
-#header {
-margin-top: 0;
-border: 2px solid black;
-padding: 5px;
-height: 250px;
-background: beige;
-background-image: url("above.png");
-color: white;
-background-repeat: no-repeat;
-background-size:cover;
-}
-
-label {
-display: block;
-}
-
-input {
-width: 30px;
-margin-left: 20px;
-}
-
-h2 {
-clear: both;
-padding-top: 20px;
-}
-
-button {
-width: 100px;
-margin-top: 20px;
-}
-
-</style>
-
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/CyberSecurityQuiz_Level2-main/quiz_Styles.css">
+<title>JavaScript Quiz Lev2</title>
 </head>
 <body>
 <div id="main">
@@ -59,67 +11,67 @@ margin-top: 20px;
 <h1>Cyber-Security Quiz Level 2</h1>
 </div>
 <form id="form1">
-
-<h2>What layer in the OSI model would you be using when you are checking your messages on Facebook?</h2>
+<hr>
+<h2>1. What layer in the OSI model would you be using when you are checking your messages on Facebook?</h2>
 <label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />Network Layer</label>
 <label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />Presentation layer</label>
 <label for="var_info"><input type="radio" name="variable" value="0" id="var_info" />Physical Layer</label>
-<label for="var_condition"><input type="radio" name="variable" value="25" id="var_condition"/>Application Layer</label>
-
-<h2>Some systems are made more secure by using LTS operating systems. What does LTS mean?</h2>
+<label for="var_condition"><input type="radio" name="variable" value="10" id="var_condition"/>Application Layer</label>
+<hr>
+<h2>2. Some systems are made more secure by using LTS operating systems. What does LTS mean?</h2>
 <label for="sub_string"><input type="radio" name="sub" value="0" id="sub_string"/>Legally Trojan-proof System.</label>
-<label for="sub_join"><input type="radio" name="sub" value="25" id="sub_join"/>Long Term Support.</label>
+<label for="sub_join"><input type="radio" name="sub" value="10" id="sub_join"/>Long Term Support.</label>
 <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Legitimate Transfer System.</label>
 <label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Linux Titanium System.</label>
-
-<h2>The main port for SMTP traffic is?</h2>
+<hr>
+<h2>3. The main port for SMTP traffic is?</h2>
 <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />21.</label>
 <label for="cat_join"><input type="radio" name="con" value="0" id="cat_join" />23.</label>
-<label for="cat_info"><input type="radio" name="con" value="25" id="cat_info" />25</label>
+<label for="cat_info"><input type="radio" name="con" value="10" id="cat_info" />25</label>
 <label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />27.</label>
-
-<h2>In evaluating the effectiveness of cyber security tools, a useful measure is based on numerical data. This would be?</h2>
+<hr>
+<h2>4. In evaluating the effectiveness of cyber security tools, a useful measure is based on numerical data. This would be?</h2>
 <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Culmulative.</label>
-<label for="if_join"><input type="radio" name="ifstate" value="25" id="if_join" />Quantitive.</label>
+<label for="if_join"><input type="radio" name="ifstate" value="10" id="if_join" />Quantitive.</label>
 <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Numerative</label>
 <label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" />Qualitative.</label>
-
-<h2>Many systems suffer from DDos attacks at some point. The term stands for?</h2>
-	<label for="if_string"><input type="radio" name="q5" value="25" id="if_string" />Distributed Denial of Service.</label>
+<hr>
+<h2>5. Many systems suffer from DDos attacks at some point. The term stands for?</h2>
+	<label for="if_string"><input type="radio" name="q5" value="10" id="if_string" />Distributed Denial of Service.</label>
 	<label for="if_join"><input type="radio" name="q5" value="0" id="if_join" />Decidedly Deadly attack on the Server.</label>
 	<label for="if_info"><input type="radio" name="q5" value="0" id="if_info" />Dedicated Disruption of the Server.</label>
 	<label for="if_condition"><input type="radio" name="q5"  value="0" id="if_condition" />Determined Deprogramming of Service .</label>
-	
-<h2>Which of the following does not make up a LAMP based system?</h2>
+<hr>	
+<h2>6. Which of the following does not make up a LAMP based system?</h2>
 	<label for="if_string"><input type="radio" name="q6" value="0" id="if_string" />Linux based Server.</label>
 	<label for="if_join"><input type="radio" name="q6" value="0" id="if_join" />Apache based web server.</label>
-	<label for="if_info"><input type="radio" name="q6" value="25" id="if_info" />Microsoft Access.</label>
+	<label for="if_info"><input type="radio" name="q6" value="10" id="if_info" />Microsoft Access.</label>
 	<label for="if_condition"><input type="radio" name="q6"  value="0" id="if_condition" />PHP based software.</label>
-
-<h2>Which of the following is not part of the tools used in cyber-defence?</h2>
+<hr>
+<h2>7. Which of the following is not part of the tools used in cyber-defence?</h2>
 	<label for="if_string"><input type="radio" name="q7" value="0" id="if_string" />Vulnerability scanners.</label>
 	<label for="if_join"><input type="radio" name="q7" value="0" id="if_join" />Forensic Tools.</label>
 	<label for="if_info"><input type="radio" name="q7" value="0" id="if_info" />Penetration Testing.</label>
-	<label for="if_condition"><input type="radio" name="q7"  value="25" id="if_condition" />Network Testing.</label>
-	
-<h2>Which of the following would be considered threats consisting of "pull" methods?</h2>
+	<label for="if_condition"><input type="radio" name="q7"  value="10" id="if_condition" />Network Testing.</label>
+<hr>	
+<h2>8. Which of the following would be considered threats consisting of "pull" methods?</h2>
 	<label for="if_string"><input type="radio" name="q8" value="0" id="if_string" />Spoof.</label>
-	<label for="if_join"><input type="radio" name="q8" value="25" id="if_join" />Drive-by.</label>
+	<label for="if_join"><input type="radio" name="q8" value="10" id="if_join" />Drive-by.</label>
 	<label for="if_info"><input type="radio" name="q8" value="0" id="if_info" />Injection.</label>
 	<label for="if_condition"><input type="radio" name="q8"  value="0" id="if_condition" />Malware.</label>
-
-<h2>'Processors and Microprocessors are forced to malfunction so that they can be breached and controlled' This is a good definition of?</h2>
-	<label for="if_string"><input type="radio" name="q9" value="25" id="if_string" />Fault Generation.</label>
+<hr>
+<h2>9. 'Processors and Microprocessors are forced to malfunction so that they can be breached and controlled' This is a good definition of?</h2>
+	<label for="if_string"><input type="radio" name="q9" value="10" id="if_string" />Fault Generation.</label>
 	<label for="if_join"><input type="radio" name="q9" value="0" id="if_join" />Software Attack.</label>
 	<label for="if_info"><input type="radio" name="q9" value="0" id="if_info" />Microprobing.</label>
 	<label for="if_condition"><input type="radio" name="q9"  value="0" id="if_condition" />Eavesdropping.</label>
-	
-<h2>A good approach when developing quality systems is to use SMART methods. Which of the following would you consider a Realistic target for a system?</h2>
+<hr>	
+<h2>10. A good approach when developing quality systems is to use SMART methods. Which of the following would you consider a Realistic target for a system?</h2>
 	<label for="if_string"><input type="radio" name="q10" value="0" id="if_string" />Eliminate all attacks.</label>
 	<label for="if_join"><input type="radio" name="q10" value="0" id="if_join" />Prevent all authorized logins.</label>
 	<label for="if_info"><input type="radio" name="q10" value="0" id="if_info" />Secure as many as 20,000 ports.</label>
-	<label for="if_condition"><input type="radio" name="q10"  value="25" id="if_condition" />Minimised the threats from root access.</label>
-	
+	<label for="if_condition"><input type="radio" name="q10"  value="10" id="if_condition" />Minimised the threats from root access.</label>
+<hr>	
 <button type="submit" value="Submit">Submit</button>
 
 </form>
@@ -135,21 +87,21 @@ document.getElementById("form1").onsubmit=function() {
 	   sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
 	   con = parseInt(document.querySelector('input[name = "con"]:checked').value);
 	   ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
-				ifstate = parseInt(document.querySelector('input[name = "q5"]:checked').value);
-				ifstate = parseInt(document.querySelector('input[name = "q6"]:checked').value);
-				ifstate = parseInt(document.querySelector('input[name = "q7"]:checked').value);
-				ifstate = parseInt(document.querySelector('input[name = "q8"]:checked').value);
-				ifstate = parseInt(document.querySelector('input[name = "q9"]:checked').value);
-				ifstate = parseInt(document.querySelector('input[name = "q10"]:checked').value);
+	   q5 = parseInt(document.querySelector('input[name = "q5"]:checked').value);
+	   q6 = parseInt(document.querySelector('input[name = "q6"]:checked').value);
+	   q7 = parseInt(document.querySelector('input[name = "q7"]:checked').value);
+	   q8 = parseInt(document.querySelector('input[name = "q8"]:checked').value);
+	   q9 = parseInt(document.querySelector('input[name = "q9"]:checked').value);
+	   q10 = parseInt(document.querySelector('input[name = "q10"]:checked').value);
 
-
-				result = variable + sub + con + ifstate;
+				
+		result = variable + sub + con + ifstate + q5 + q6 + q7 + q8 + q9 + q10;
 
 	document.getElementById("grade").innerHTML = result;
 
  grading = [
-	   {score:0,feedback:"I don't think you studied", image: "none.jpg"},
-	   {score:25,feedback:"You need to spend more time. Try again", image: "idiot1.png"},
+	   {score:0,feedback:"I don't think you studied", image: "idiot1.png"},
+	   {score:25,feedback:"You need to spend more time. Try again", image: "justaPass.png"},
 	   {score:50,feedback:"I think you could do better. Try again.", image: "avg.png"},
 	   {score:75,feedback:"So close. Try again.", image: "above.png"},
 	   {score:100,feedback:"Excellent! You're a Cyber-Security pro!", image: "perfectScore.png"}
